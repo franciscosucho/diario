@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+header nav{
+  display: flex;
+  justify-content: center;
+  padding-right: 170px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-image: url("/diario/fondo.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: .2s ease-in-out;;
+}
+.texto_prin {
+  border-radius: 20px;
+padding: 30px;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(117, 117, 117);
+  transition: .2s ease-in-out;;
+}
+h1{
+  color: white;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{color: white;}
+.container-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  transition: .2s ease-in-out;;
+}
+.container .texto_prin .burrito_arg {
+  height: 300px;
+ width: 400px;
+ border-radius: 20px;
+
+}
+.container .texto_prin :hover{
+  background-color: rgb(100, 99, 99);
+  border-radius: 20px;
+  transition: 0.2s ease-in-out;;
+  padding: 0px;
+}
+.container .texto_prin .container-img .burrito_arg:hover{
+  border: 2px solid wheat;
+  transition: .2s ease-in-out;;
+  padding: 0px;
+}
+/*# sourceMappingURL=estilo.css.map */
+@media(max-width:1510px){
+ .texto_prin .container-img img {
+  width: 100px;
+  height: 10px;
+  }
+}
